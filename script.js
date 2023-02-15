@@ -8,8 +8,5 @@ function login() {
   } else {
     alert('Email ou senha inválidos.');
   }
-  
 }
-
-console.log(login[0]);
 btnForm.addEventListener('click', login);
