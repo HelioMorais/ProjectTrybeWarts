@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -23,8 +24,33 @@
   display: flex;
 }
 
+#email {
+    padding: 10px;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 6px;
+}
+
+#senha {
+    padding: 10px;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 4px;
+}
+
+#acesso {
+    padding: 10px 20px;
+    background-color: rgb(15, 102, 86);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border: 0;
+    border-radius: 4px;
+}
+
 main {
   display: flex;
+  margin: 20px 40px;
 }
 
 #evaluation-form {
@@ -42,7 +68,29 @@ main {
   flex-direction: row;
 }
 
+#input-name, #input-lastname, #input-email, #house {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(235, 228, 228);
+    border: 0;
+    color: black;
+}
+
+#gitnoria-house {
+    background-color: rgb(235, 228, 228);
+}
+
 #familia {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+}
+
+#front {
+    margin: 10px 0;
+}
+
+#check {
+    margin: 10px 10px;
 }
