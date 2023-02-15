@@ -20,20 +20,32 @@
   <body>
     <header class="header">
         <img src="images/trybewarts-header-logo.svg" alt="Logo TrybeWarts" class="trybewarts-header-logo">
+        
         <h1 id="trybewarts-header-title">Trybewarts</h1>
+        
         <form action="#" method="get" class="trybewarts-login">
             <input id="email" type="email" name="email" placeholder="Email">
             <input id="senha" type="password" name="password" placeholder="Senha">
             <button type="submit" id="acesso">Entrar</button>
         </form>
     </header>
+    
     <main>
         <form action="" method="get" id="evaluation-form">
-
+            <input type="text" name="nome" id="input-name" placeholder="Nome">
+            <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
+            <input type="email" name="email" id="input-email" placeholder="Email">
+            <select name="" id="house">
+                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
         </form>
         <aside>
             <img src="images/trybewarts-colored.svg" alt="Logo principal" id="trybewarts-forms-logo">
         </aside>
+        
     </main>
     <script src="script.js"></script>
 </body>
