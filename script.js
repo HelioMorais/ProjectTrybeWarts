@@ -10,3 +10,13 @@ function login() {
   }
 }
 btnForm.addEventListener('click', login);
+
+const consulta = document.getElementById('agreement');
+const btncheck = document.getElementById('submit-btn');
+
+function checkbox() {
+  if (consulta.checked) {
+    btncheck.disabled = false;
+  }
+}
+consulta.addEventListener('click', checkbox);
