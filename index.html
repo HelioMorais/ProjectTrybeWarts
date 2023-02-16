@@ -35,6 +35,7 @@
     
     <main>
         <form action="" method="get" id="evaluation-form">
+            <h1>Formulario de Avaliação</h1>
             <div id="input-container">
                 <input type="text" name="nome" id="input-name" placeholder="Nome">
                 <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
@@ -42,6 +43,7 @@
 
             <div id="input-container">
                 <input type="email" name="email" id="input-email" placeholder="Email">
+                <label id="casa">Casa:</label>
                 <select name="" id="house">
                     <option value="Gitnória" id="gitnoria-house">Gitnória</option>
                     <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
@@ -49,7 +51,8 @@
                     <option value="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </div>
-
+            <hr>
+            <div class="check-container">
             <div id="familia">
                 <label id="label-family">Qual sua família?</label>
                 <label for="family" id="front"><input id="check" type="radio" name="family" value="Frontend" checked>Frontend</label>
@@ -59,18 +62,21 @@
           
           <div id="conteudo">
                 <label for="content" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-          </div>
-          
-          <div>
+                    
+        <div class="checkbox">
                 <label for="content"><input type="checkbox" name="" class="subject" value="HoFs">HoFs</label>
                 <label for="content"><input type="checkbox" name="" class="subject" value="Jest">Jest</label>
                 <label for="content"><input type="checkbox" name="" class="subject" value="Promises">Promises</label>
+        </div>
+        <div class="checkbox">
                 <label for="content"><input type="checkbox" name="" class="subject" value="React">React</label>
                 <label for="content"><input type="checkbox" name="" class="subject" value="SQL">SQL</label>
                 <label for="content"><input type="checkbox" name="" class="subject" value="Python">Python</label>
-          </div>
-
-          <div>
+        </div>
+    </div>
+    </div>
+          <hr>
+          <div id="text">
             <label for="nota" id="label-rate">Como você avalia a Trybewarts?</label>
             <label for="nota"><input type="radio" name="rate" value="1">1</label>
             <label for="nota"><input type="radio" name="rate" value="2">2</label>
@@ -84,19 +90,18 @@
             <label for="nota"><input type="radio" name="rate" value="10">10</label>
           </div>
           
-          <div id="comentario">
+          <div class="comentario">
             <label for="comentario" class="textarea">Deixe seu comentário:</label>
-            <textarea name="comentario" cols="30" rows="10" maxlength="500"></textarea>
-            <span id="counter">Max. 500 caracteres</span>
+            <textarea id="comentario" name="comentario" cols="30" rows="10" maxlength="500" placeholder="Max. 500 caracteres"></textarea>
           </div>
 
-          <div>
+          <div id="info">
             <label for="aceito" id="label-infos">Você concorda com o uso das informações acima?</label>
             <input type="checkbox" name="aceito" id="agreement">
           </div>
-
+          <div id="btnDiv">
           <button type="submit" id="submit-btn" disabled>Enviar</button>
-
+        </div>
         </form>
         <aside>
             <img src="images/trybewarts-colored.svg" alt="Logo principal" id="trybewarts-forms-logo">
