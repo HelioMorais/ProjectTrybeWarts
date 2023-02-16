@@ -85,7 +85,7 @@ main {
   flex-direction: row;
 }
 
-#input-name, #input-lastname, #input-email, #house {
+#input-name , #input-lastname , #input-email , #house {
   margin: 5px;
   padding: 10px;
   border-radius: 4px;
@@ -221,7 +221,7 @@ label {
 }
 
 #comentario :focus {
-  background: rgb(209, 204, 250);;
+  background: rgb(209, 204, 250);
 }
 
 .comentario {
