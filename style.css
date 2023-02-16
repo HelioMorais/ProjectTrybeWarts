@@ -21,7 +21,7 @@ body {
 
 .trybewarts-header-logo {
   width: 60px;
-  height: 60px;
+  height: 60px; 
 }
 
 .trybewarts-login {
@@ -117,23 +117,32 @@ main {
   flex-direction: column;
   margin-top: 10px;
   flex-basis: 50%;
+  margin-left: 10px;
 }
 
 .checkbox {
-  margin: 5px;
-  padding: 10px;
+  margin: 10px;
+  
+}
+
+.subject {
+  margin-right: 5px;
+  width: 10px;
 }
 
 #conteudo {
   align-items: center;
+  margin: 10px 5px;
+  text-align: center;
 }
 
 #front {
   margin: 5px 0;
+  width: 120px;
 }
 
 #check {
-  margin: 10px 10px;
+  margin: 8px 8px;
 }
 
 label {
